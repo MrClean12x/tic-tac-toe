@@ -57,7 +57,7 @@ const Player = (sign) => {
     };
   
     const setResultMessage = (winner) => {
-      if (winner === "Draw") {
+      if (winner === "Draw!") {
         setMessageElement("It's a draw!");
       } else {
         setMessageElement(`Player ${winner} has won!`);
